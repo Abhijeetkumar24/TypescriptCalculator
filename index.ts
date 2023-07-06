@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const port: number | string = rocess.env.PORT || 3000;
+const port: number | string = process.env.PORT || 3000;
 
 const app: Express = express();
 
